@@ -1,0 +1,148 @@
+@charset "utf-8";
+body {
+}
+#header{
+	width:100%;
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(122,122,122,0.53);
+-moz-box-shadow: 0px 1px 2px 1px rgba(122,122,122,0.53);
+box-shadow: 0px 1px 2px 1px rgba(122,122,122,0.53);
+}
+.logo{
+	padding-top:26px;
+	padding-bottom:26px;
+}
+placeholder{
+	color:#aaa;
+}
+.log-in-section input{
+	border:1px solid #ccc;
+	width:210px;
+	height:35px;
+	line-height:35px;
+	color:#000;
+	font-size:14px;
+	padding-left:10px;
+	margin-top:41px;
+	margin-bottom:41px;
+}
+.btn-top{
+	border:1px solid #ccc;
+	width:75px;
+	height:35px;
+	line-height:33px;
+	font-size:14px;
+	margin-top:41px;
+	margin-bottom:41px;
+	background-color:#fff;
+	color:#333;
+}
+.submit input{
+	width:75px;
+	height:35px;
+	line-height:33px;
+	font-size:14px;
+	color:#333;
+}
+
+.btn-top:hover{
+	background-color:#083c83;
+	color:#fff;
+}
+.input-align{
+	float:left;
+	margin-left:20px;
+}
+#contant {
+    background-image: url("../images/slider-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+#contant h2{
+	color:#666;
+	font-size:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:102px;
+}
+.clients-logo{
+	//bottom:0px;
+	margin-top:380px;
+}
+.clients-logo a{
+	display:block;
+	float:left;
+	margin-left:15px;
+	margin-bottom:25px;
+}
+.inner-foot{
+	border-top:1px solid #ddd;
+	padding-top:25px;
+	padding-bottom:100px;
+}
+.inner-foot a{
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#0060a4;
+	margin-right:20px;
+}
+.copyr{
+	text-align:right;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+}
+
+@media (max-width: 991px) {
+.btn-top{
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.clients-logo {
+    margin-top: 180px;
+}
+.input-align.submit input {
+    margin: 2px 0;
+}
+}
+@media (max-width: 668px) {
+.clients-logo a{
+	float:none;
+	text-align:center;
+}
+}
+@media (max-width: 768px) {
+.log-in-section input{
+	margin-top:2px;
+	margin-bottom:10px;
+}
+.logo{
+	margin:0px auto;
+	text-align:center;
+}
+#header {
+    padding-bottom: 20px;
+}
+.inner-foot{
+	text-align:center;
+}
+.copyr{
+	text-align: center;
+}
+.clients-logo {
+    margin-top: 80px !important ;
+}
+}
+@media (max-width: 490px) {
+#contant h2{
+	font-size:24px;
+	margin-top:20px;
+}
+.clients-logo {
+    margin-top: 20px ;
+}
+}
+@media (max-width: 1200px) {
+.clients-logo {
+    margin-top: 280px;
+}
+}

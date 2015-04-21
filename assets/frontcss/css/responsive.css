@@ -1,0 +1,198 @@
+@media (min-width: 992px) {
+	.blue-nav .dropdown-menu{
+		left: 17px;
+		min-width: 169px;
+	}
+}
+@media (max-width: 991px) {
+.btn-top {
+ margin-top:2px;
+ margin-bottom:2px;
+}
+.home_container {
+ height: 358px;
+}
+.input-align.submit input{
+ margin: 2px 0;
+}
+.btn-section {
+ float:none;
+}
+.log-in-section input {
+ margin-bottom:15px;
+}
+.clients-logo a {
+ border:2px solid #9dc3f7;
+ display: inline-block;
+ min-height: 80px;
+ min-width: 202px;
+ padding: 10px;
+ float:none;
+}
+.clients-logo a:hover {
+ background-color:none;
+}
+.clients-logo img {
+ margin: 0 auto;
+}
+#contant h2 {
+ font-size:24px;
+ margin-top:20px;
+}
+}
+@media (max-width: 668px) {
+.clients-logo a {
+ float:none;
+ text-align:center;
+}
+.clients-logo {
+ text-align:center !important;
+}
+ .home_container {
+ height: 243px;
+}
+}
+@media (max-width: 767px) {
+.log-in-section input {
+ margin-top:2px;
+ margin-bottom:10px;
+}
+.logo {
+ margin:0px auto;
+ text-align:center;
+}
+#header {
+ padding-bottom: 20px;
+}
+.inner-foot {
+ text-align:center;
+}
+.copyr {
+ text-align: center;
+}
+ #partnerform input[type="text"], #partnerform input[type="email"], #partnerform input[type="url"], #partnerform input[type="number"], #partnerform select, #partnerform textarea {
+ width:100%;
+}
+.log-in-section{
+	padding:10px 0;
+	border-top:1px solid #e9e9e9;
+}
+.header-r-section{
+	margin:0 auto;
+}
+.navbar-default.blue-nav ul li{
+	float:none;
+	clear:both;
+	margin:0 0 2px;
+}
+.navbar-default.blue-nav ul li .caret{
+	float:right;
+	margin-top:18px;
+}
+.navbar-collapse{
+	padding-left:0;
+	padding-right:0;
+}
+.navbar-default.blue-nav ul li a,
+.navbar-default.blue-nav ul li{
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .active > a{
+	background:#002444;
+	color:#fff;
+}
+
+.navbar-nav .open .dropdown-menu{
+	color:#fff;
+}
+.dropdown-menu li a{
+	color:#fff !important;
+	font-size:16px !important;
+	text-indent:50px;
+}
+.dropdown-menu li{
+	background:#00325f !important;
+	color:#fff;
+	margin-top:3px !important;
+}
+/* right part
+============================= */
+.right-part{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+}
+@media (max-width: 479px) {
+ .home_container {
+ height: 180px;
+ background-size: cover;
+}
+ #contant h2 {
+ font-size: 18px;
+}
+.profile-detail > div{
+	width:100% !important;
+	float:none !important;
+	clear:both !important;
+	text-align:center;
+}
+.searchdeal_wrapper{
+	text-align:left;
+}
+.searchdeal label.search-title{
+	width:auto;
+	float:none;
+}
+.searchdeal{
+	width:100%;
+}
+.searchdeal .search-input{
+	float:none;
+	width:100%;
+}
+}
+@media (max-width: 679px) {
+form .input-align {
+ float: none;
+ margin: 0 auto;
+ text-align: center;
+}
+form {
+ float: none;
+}
+.btn-section {
+ display: table;
+ float: none !important;
+ margin: 0 auto;
+ text-align: center;
+}
+.log-in-section .pull-right {
+ float: none !important;
+}
+.btn-section .input-align {
+ float: left;
+ margin-right: 5px;
+}
+}
+@media (min-width: 768px) {
+/* header right part
+================================== */
+.header-r-section{
+	float:right;
+}
+.right-part{
+	float:left;
+}
+}
+@media (min-width: 768px) {
+.profile-address{
+	padding-left:15px;		
+	}
+}
